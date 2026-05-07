@@ -1,0 +1,66 @@
+### Build Tool Artifacts ###
+target/
+build/
+out/
+.gradle/
+/bin/
+!**/src/**/bin/
+!**/src/**/build/
+
+### Compiled Java files ###
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+### IDE Settings ###
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+/out/
+
+# Eclipse / Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Visual Studio Code
+.vscode/
+
+### Environment & Secrets ###
+.env
+*.properties.local
+*.yml.local
+secrets.yml
+# Exclude sensitive config if you use it for local dev
+# application-local.properties
+
+### Logs & Temp Files ###
+*.log
+logs/
+temp/
+tmp/
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Maven/Gradle Wrappers ###
+# Note: It's generally recommended to KEEP these so teammates 
+# don't need to install Maven/Gradle locally. 
+# Uncomment below if you want to ignore them.
+# .mvn/
+# mvnw
+# mvnw.cmd
+# gradle/wrapper/gradle-wrapper.jar
+# gradlew
+# gradlew.bat
