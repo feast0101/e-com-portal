@@ -54,6 +54,9 @@ tmp/
 Thumbs.db
 desktop.ini
 
+### Local Claude instructions (machine-specific, not shared) ###
+CLAUDE.local.md
+
 ### Maven/Gradle Wrappers ###
 # Note: It's generally recommended to KEEP these so teammates 
 # don't need to install Maven/Gradle locally. 
