@@ -7,8 +7,8 @@ import org.springframework.retry.annotation.EnableRetry;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 /**
- * Main entry point for the Spring Boot POC application.
- * This class enables various features like caching, retries, and asynchronous execution.
+ * Main entry point for the Spring Boot POC application. This class enables various features like
+ * caching, retries, and asynchronous execution.
  */
 @SpringBootApplication
 @EnableCaching // Enables Spring's cache management
@@ -16,8 +16,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @EnableAsync // Enables Spring's @Async annotation for asynchronous method execution
 public class PocProjectApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PocProjectApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(PocProjectApplication.class, args);
+  }
 }
